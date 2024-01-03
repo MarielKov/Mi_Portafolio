@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Pendientes</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <style>
+        body {
+           background-color: #F7A9A9;
+           font-family: 'Roboto Condensed', sans-serif;
+           padding-top: 60px;
+        }
+
+        .container{
+            max-width: 550px;
+            margin: auto;
+            background-color: #F7DFDF;
+            -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.25);
+            box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.25);
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6{
+            font-family: 'Open Sans', sans-serif;
+        }
+        a,
+        p {
+            color: #521409;
+        }
+
+        .barraSuperior {
+            display: flex;
+            justify-content: space-between;
+            color: #000000;
+            padding: 10px;
+            border-radius: 5px 5px 0 0;
+            background-image: linear-gradient(90deg, #E58322 , #E5B522);
+        }
+
+        .barraSuperior a {
+            color: rgb(255,255,255)
+            text-decoration: none;
+        }
+
+        .barra-tareas {
+            display: flex;
+            justify-content: space-between;
+            color: #000000;
+            padding: 20px;
+            align-items: center;
+            backgroung-color: #ffffff;
+            border-top: 1px solid rgb(255,255,255);
+
+        }
+        .titulo-tarea {
+            display: flex;
+        }
+        .titulo-tarea a {
+            text-decoration: none;
+            color: #7B241C;
+            margin-left: 10px;
+        }
+
+        .tarea-completa {
+            height: 20px;
+            width: 20px;
+            background-color: rgb(105, 162, 105)
+            border-radius: 50px;
+        }
+        .tarea-incompleta {
+            height: 20px;
+            width: 20px;
+            background-color: rgb(218, 218, 218)
+            border-radius: 50px;
+        }
+
+        .enlace-eliminar {
+            text-decoration: none;
+            color: #F0B27A;
+            font-weight: 900;
+            font-size: 22px;
+            line-height: 0;
+
+        }
+
+        #barra-busqueda {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            align-items: center;
+
+        }
+
+        #enlace-agregar {
+            color: #F0B27A;
+            text-decoration: none;
+            font-size: 42px;
+            text-shadow: 1px 1px #7B241C
+
+        }
+
+        input[type=text],
+        input[type=password],
+
+        textarea{
+            border: 1px solid #E1B427
+            width: 90%;
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+
+        label {
+            padding-top: 10px !important;
+            display: block;
+
+        }
+
+        .boton {
+            color: #F0B27A;
+            text-decoration: none;
+            font-size: 14px;
+            border: 1px solid #F0B27A;
+            cursor: pointer;
+            padding: 10px
+            border-radius: 5px;
+            background-color: #FAFAFA;
+        }
+
+        .cuerpo-form{
+            padding: 20px;
+
+
+        }
+    </style>
+</head>
+<body>
+  <div class="container">
+    {% block content %}
+
+    {% endblock content %}
+
+  </div>
+
+</body>
+</html>
+
+
