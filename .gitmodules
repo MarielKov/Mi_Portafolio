@@ -1,0 +1,12 @@
+[submodule "Angular_Kotlin/Backend_Kotlin/parcial-sobredosis-de-tv-2023-MarielKov"]
+	path = Angular_Kotlin/Backend_Kotlin/parcial-sobredosis-de-tv-2023-MarielKov
+	url = https://github.com/algo2-unsam/parcial-sobredosis-de-tv-2023-MarielKov.git
+[submodule "Angular_Kotlin/Backend_Kotlin/worldcapp-2023-backend-grupo-5"]
+	path = Angular_Kotlin/Backend_Kotlin/worldcapp-2023-backend-grupo-5
+	url = https://github.com/algo3-unsam/worldcapp-2023-backend-grupo-5.git
+[submodule "Angular_Kotlin/FrontEnd_Angular/worldcapp-2023-grupo-5-3"]
+	path = Angular_Kotlin/FrontEnd_Angular/worldcapp-2023-grupo-5-3
+	url = https://github.com/algo3-unsam/worldcapp-2023-grupo-5.git
+[submodule "Python/Django/miproject"]
+	path = Python/Django/miproject
+	url = https://github.com/MarielKov/MiPrimeraPagina.git
