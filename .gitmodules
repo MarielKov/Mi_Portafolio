@@ -7,6 +7,4 @@
 [submodule "Angular_Kotlin/FrontEnd_Angular/worldcapp-2023-grupo-5-3"]
 	path = Angular_Kotlin/FrontEnd_Angular/worldcapp-2023-grupo-5-3
 	url = https://github.com/algo3-unsam/worldcapp-2023-grupo-5.git
-[submodule "Python/Django/miproject"]
-	path = Python/Django/miproject
-	url = https://github.com/MarielKov/MiPrimeraPagina.git
+
