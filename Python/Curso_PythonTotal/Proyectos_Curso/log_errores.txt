@@ -1,0 +1,2 @@
+Texto de ejemplo en un log de errores
+se ha registrado un error de ejecución
